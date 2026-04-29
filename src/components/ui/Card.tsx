@@ -31,7 +31,7 @@ const Card: React.FC<CardProps> = ({ project }) => {
 
         <div className="flex flex-wrap gap-1 mb-3">
           {project.technologies.map((tech, i) => (
-            <span key={i} className="text-xs bg-gray-200 px-2 py-1 rounded">
+            <span key={i} className="text-xs bg-gray-200 px-2 py-1 rounded text-blue-500">
               {tech}
             </span>
           ))}

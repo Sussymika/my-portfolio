@@ -12,7 +12,7 @@ const Header = () => {
     <header className="sticky top-0 bg-white shadow-md z-50">
       <div className="flex justify-between items-center p-4">
         {/* Logo */}
-        <h1 className="font-bold text-xl">MyPortfolio</h1>
+        <h1 className="font-bold text-xl text-black">MyPortfolio</h1>
 
         {/* Desktop Nav */}
         <nav className="hidden md:flex gap-6">

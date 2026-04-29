@@ -29,7 +29,7 @@ const Footer = () => {
 
         {/* Contact Email */}
         <p className="text-sm text-gray-600">
-          Email: yourname@example.com
+          Email: dylan@gmail.com
         </p>
 
         {/* Copyright */}

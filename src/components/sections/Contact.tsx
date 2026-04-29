@@ -79,7 +79,7 @@ const Contact = () => {
 
         {/* Contact Info */}
         <div className="flex-1 flex flex-col gap-4 text-gray-700">
-          <p><strong>Email:</strong> yourname@example.com</p>
+          <p><strong>Email:</strong> youremail@example.com</p>
           <p><strong>GitHub:</strong> <a href="https://github.com" target="_blank" rel="noreferrer">github.com/username</a></p>
           <p><strong>LinkedIn:</strong> <a href="https://linkedin.com" target="_blank" rel="noreferrer">linkedin.com/in/username</a></p>
           <p><strong>Twitter:</strong> <a href="https://twitter.com" target="_blank" rel="noreferrer">@username</a></p>
