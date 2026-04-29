@@ -35,7 +35,7 @@ const Projects = () => (
 
     <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
       {sampleProjects.map((project, index) => (
-        <ScrollReveal key={project.title} delay={index * 120}>
+        <ScrollReveal key={project.title} delay={index * 120} className="h-full">
           <Card project={project} />
         </ScrollReveal>
       ))}

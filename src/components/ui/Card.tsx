@@ -21,7 +21,7 @@ const Card: React.FC<CardProps> = ({ project }) => {
   const [error, setError] = useState(false);
 
   return (
-    <div className="overflow-hidden rounded-lg border border-zinc-200 bg-white shadow-sm transition-colors dark:border-zinc-800 dark:bg-zinc-950">
+    <div className="flex h-full flex-col overflow-hidden rounded-lg border border-zinc-200 bg-white shadow-sm transition-colors dark:border-zinc-800 dark:bg-zinc-950">
       <div className="relative h-40">
         {!loaded && !error && <div className="absolute inset-0 animate-pulse bg-zinc-200 dark:bg-zinc-800" />}
         {error ? (
@@ -39,15 +39,15 @@ const Card: React.FC<CardProps> = ({ project }) => {
         )}
       </div>
 
-      <div className="p-4">
+      <div className="flex flex-1 flex-col p-4">
         <h3 className="text-lg font-semibold text-zinc-950 dark:text-white">
           {project.title}
         </h3>
-        <p className="mb-2 text-sm text-gray-600 dark:text-zinc-300">
+        <p className="mb-2 min-h-10 text-sm text-gray-600 dark:text-zinc-300">
           {project.description}
         </p>
 
-        <div className="flex flex-wrap gap-1 mb-3">
+        <div className="mb-3 flex min-h-7 flex-wrap gap-1">
           {project.technologies.map((tech, i) => (
             <span
               key={i}
@@ -58,7 +58,7 @@ const Card: React.FC<CardProps> = ({ project }) => {
           ))}
         </div>
 
-        <div className="flex gap-2">
+        <div className="mt-auto flex gap-2">
           <a href={project.githubUrl} target="_blank" rel="noreferrer">
             <Button variant="outline">GitHub</Button>
           </a>
