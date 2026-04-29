@@ -7,13 +7,13 @@ export default function About() {
             About
           </p>
           <h2 className="mt-3 text-3xl font-bold tracking-tight text-zinc-950 dark:text-white">
-            A little about me
+            About me
           </h2>
         </div>
         <p className="text-lg leading-8 text-zinc-600 dark:text-zinc-300">
-          Write a short introduction here: who you are, what you build, and the
-          kind of problems you enjoy solving. Keep it specific enough to feel
-          personal and concise enough to scan quickly.
+          I am name a developer with a passion for building web applications. I
+          have experience working with a wide range of technologies, including React, Next.js, and
+          Node.js. I am also experienced in working with databases like MongoDB and PostgreSQL.
         </p>
       </div>
     </section>
