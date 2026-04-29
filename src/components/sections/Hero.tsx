@@ -1,4 +1,3 @@
-// src/components/sections/Hero.tsx
 import React from "react";
 import Button from "../ui/Button";
 
@@ -12,7 +11,7 @@ const Hero = () => {
 
         {/* Name & Title */}
         <h1 className="text-4xl md:text-6xl font-bold">
-          Your Name
+          Dylan
         </h1>
         <h2 className="text-xl md:text-2xl mt-2">
           Frontend Developer

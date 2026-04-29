@@ -5,7 +5,7 @@ const sampleProjects: Project[] = [
   {
     title: "Portfolio Website",
     description: "Personal portfolio built with React and Tailwind.",
-    image: "https://via.placeholder.com/400x200",
+    image: "https://static-blog.onlyoffice.com/wp-content/uploads/2025/09/30124756/portfolio.png",
     technologies: ["React", "Tailwind"],
     githubUrl: "#",
     liveUrl: "#",
@@ -13,7 +13,7 @@ const sampleProjects: Project[] = [
   {
     title: "Todo App",
     description: "Simple task manager with local storage.",
-    image: "https://via.placeholder.com/400x200",
+    image: "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Hero_ToDo_960x615_2x_1_RE3HTxG?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1920&qlt=100&fmt=png-alpha&fit=constrain",
     technologies: ["React", "JS"],
     githubUrl: "#",
     liveUrl: "#",
@@ -21,7 +21,7 @@ const sampleProjects: Project[] = [
   {
     title: "E-commerce Store",
     description: "Demo online store with shopping cart.",
-    image: "https://via.placeholder.com/400x200",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTFZyMXAyM1DKIaRiQBNKGQA4lXKnkv4AzCg&s",
     technologies: ["Next.js", "Tailwind"],
     githubUrl: "#",
     liveUrl: "#",
