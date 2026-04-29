@@ -1,5 +1,6 @@
 import React from "react";
 import Card, { Project } from "../ui/Card";
+import ScrollReveal from "../ui/ScrollReveal";
 
 const sampleProjects: Project[] = [
   {
@@ -33,8 +34,10 @@ const Projects = () => (
     <h2 className="text-3xl font-bold text-center mb-8">Projects</h2>
 
     <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-      {sampleProjects.map((project) => (
-        <Card key={project.title} project={project} />
+      {sampleProjects.map((project, index) => (
+        <ScrollReveal key={project.title} delay={index * 120}>
+          <Card project={project} />
+        </ScrollReveal>
       ))}
     </div>
   </section>

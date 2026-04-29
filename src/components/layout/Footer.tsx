@@ -1,21 +1,25 @@
-// src/components/layout/Footer.tsx
 import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-100 mt-10 p-6">
-      <div className="max-w-4xl mx-auto text-center space-y-4">
-
-        {/* Navigation Links */}
+    <footer className="mt-10 bg-gray-100 p-6 transition-colors dark:bg-zinc-950">
+      <div className="mx-auto max-w-4xl space-y-4 text-center">
         <div className="flex justify-center gap-4 text-sm">
-          <a href="#home" className="text-gray-600">Home</a>
-          <a href="#about" className="text-gray-600">About</a>
-          <a href="#projects" className="text-gray-600">Projects</a>
-          <a href="#contact" className="text-gray-600">Contact</a>
+          <a href="#home" className="text-gray-600 dark:text-zinc-300">
+            Home
+          </a>
+          <a href="#about" className="text-gray-600 dark:text-zinc-300">
+            About
+          </a>
+          <a href="#projects" className="text-gray-600 dark:text-zinc-300">
+            Projects
+          </a>
+          <a href="#contact" className="text-gray-600 dark:text-zinc-300">
+            Contact
+          </a>
         </div>
 
-        {/* Social Links */}
-        <div className="flex justify-center gap-4 text-sm">
+        <div className="flex justify-center gap-4 text-sm text-zinc-700 dark:text-zinc-300">
           <a href="https://github.com" target="_blank" rel="noreferrer">
             GitHub
           </a>
@@ -27,16 +31,13 @@ const Footer = () => {
           </a>
         </div>
 
-        {/* Contact Email */}
-        <p className="text-sm text-gray-600">
+        <p className="text-sm text-gray-600 dark:text-zinc-300">
           Email: dylan@gmail.com
         </p>
 
-        {/* Copyright */}
-        <p className="text-xs text-gray-500">
-          © {new Date().getFullYear()} MyPortfolio. All rights reserved.
+        <p className="text-xs text-gray-500 dark:text-zinc-400">
+          Copyright 2026 MyPortfolio. All rights reserved.
         </p>
-
       </div>
     </footer>
   );
